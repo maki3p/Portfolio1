@@ -1,0 +1,82 @@
+/* /* Header */
+ .large-header {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	
+	background-position: center center;
+	z-index: 1;
+} 
+
+
+
+ #myName {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	font-family: 'Anton', sans-serif;
+	font-size: 5em;
+}
+ #jobTitle{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 60%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	font-family: 'Anton', sans-serif;
+	font-size: 2em;
+	
+} 
+#navBar{
+	background-color: white;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	
+}
+
+.buton{
+	border: 0px;
+	background-color: white;
+	color:black;
+}
+#aboutMe{
+	padding-left: 5%;
+    border-radius: 10px;
+	
+    height: auto;
+	padding: 20px;
+	display: block;
+	
+    
+    
+}
+#mj{
+	position: absolute;
+	right: 10%;
+	width: 200px;
+	border-radius:10px;
+	
+}
+#aboutme{
+	
+	position: relative;
+	text-align: center;
+	color: black;
+}
+#aboutMeP{
+	position: relative;
+	
+	color: black;
+	text-align: center;
+}
