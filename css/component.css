@@ -53,17 +53,14 @@
 #aboutMe{
 	padding-left: 5%;
     border-radius: 10px;
-	
+	font-family:  sans-serif;
     height: auto;
 	padding: 20px;
-	display: block;
-	
-    
-    
+	display: block;    
 }
 #mj{
 	position: absolute;
-	right: 10%;
+	left: 10%;
 	width: 200px;
 	border-radius:10px;
 	
@@ -75,8 +72,17 @@
 	color: black;
 }
 #aboutMeP{
-	position: relative;
-	
+	position: relative;	
 	color: black;
 	text-align: center;
+}
+#works{
+	padding-top: 5%;
+	text-align: center;	
+	font-family: sans-serif;
+}
+.skills{
+	padding-top: 5%;
+	text-align: center;	
+	font-family:  sans-serif;
 }
