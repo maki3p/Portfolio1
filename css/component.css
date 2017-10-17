@@ -54,18 +54,18 @@ body{margin:0;}
 	
 }
 #aboutMe{
-	
+	padding-left: 5%;
     border-radius: 10px;
 	font-family:  sans-serif;
     height: auto;
+	padding: 20px;
+	display: block;    
 }
 #mj{
-
+	
 	left: 10%;
 	width: 250px;
 	border-radius:10px;
-	
-	
 	
 }
 #aboutme,.projects,.contact{
@@ -78,17 +78,14 @@ body{margin:0;}
 p,a,span{
 	position: relative;	
 	color: black;
+	text-align: center;
 	font-size:1.2em;
 	text-decoration: none;
-
 }
-
-
 #works{
 	padding-top: 5%;
 	text-align: center;	
 	font-family: sans-serif;
-	
 }
 .skills{
 	padding-top: 5%;
@@ -100,7 +97,6 @@ li{
 }
 .imgs{
 	width: 50px;
-
 }
 #mailImg,#phone{
 	width:50px;
@@ -116,4 +112,3 @@ footer{
 	position: fixed;
 	width: 100%;
   }
- 
