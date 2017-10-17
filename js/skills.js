@@ -8,15 +8,7 @@ for (var i = 0; i < doughnutArray.length; i++) {
   doughnutArray[i].stroke();
 }
 window.onload = function() {
-    loadSkills1();
-    loadSkills2();
-    loadSkills3();
-    loadSkills4();
-    loadSkills5();
-    loadSkills6();
-    loadSkills7();
-    loadSkills8();
-    loadSkills9();
+
   }
   /*Load skills one function*/
 function loadSkills1() {

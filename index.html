@@ -3,21 +3,22 @@
 
 <head>
 	<meta charset="UTF-8" />
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Marjan Josifvski</title>
 	<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
 	<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/skills.css" />
-	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+	 crossorigin="anonymous">
+
 
 </head>
 
 <body>
-	<div class="container demo-1">
+	<div>
 		<div class="content">
 			<div id="large-header" class="large-header">
 				<canvas id="demo-canvas"></canvas>
@@ -25,70 +26,183 @@
 				<span id="jobTitle">Web Developer</span>
 
 			</div>
+			<!--NavBar start-->
 			<div>
+
 				<nav id="navBar">
-					<input type="button" value="Home" class="buton">
-					<input type="button" value="About Me" class="buton">
-					<input type="button" value="Works" class="buton">
-					<input type="button" value="Skills" class="buton">
-					<input type="button" value="Project" class="buton">
-					<input type="button" value="Contact" class="buton">		
+					<input type="button" value="Home" class="buton" onclick="location.href='#large-header'">
+					<input type="button" value="About Me" class="buton" onclick="location.href='#aboutMe'" ;>
+					<input type="button" value="Works" class="buton" onclick="location.href='#works'">
+					<input type="button" value="Skills" class="buton" onclick="location.href='#skills'">
+					<input type="button" value="Project" class="buton" onclick="location.href='#projects'">
+					<input type="button" value="Contact" class="buton" onclick="location.href='#contact'">
 				</nav>
 			</div>
-			
-			<div id="aboutMe">	
-				<img src="img/mj.jpg" alt="MarjanJosifovski"id="mj">
+			<br>
+			<br>
+			<br>
+			<br>
+			<!--navBar end-->
+			<!--AboutME start-->
+
+			<div id="aboutMe" class="containter-fluid">
 				<h2 id="aboutme">About Me</h2>
-				<p id="aboutMeP">Hi I'm Marjan Josifovsi i from Tetovo Macedonia im a web developer <br>i studied in
-					 SEDC Academy </p>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-1">
+						<img src="img/mj.jpg" alt="MarjanJosifovski" id="mj">
+					</div>
+					<div class="col-md-9">
+						<p id="aboutMeP">Hi I'm Marjan Josifovsi i from Tetovo Macedonia im a web developer
+							<br>i studied in SEDC Academy </p>
+					</div>
+				</div>
 			</div>
+			<!--AboutMe end-->
+			<!--works start-->
 			<div id="works">
 				<h2>Works</h2>
-						<li>Sales menager Mako-Kom  2008 - 2017</li>
+				<li>Sales menager Mako-Kom 2008 - 2017</li>
 			</div>
-			
-					<div class="skills">
-							<h2>Skills</h2>
-						<div class="iSkills">
-							<h1>HTML5</h1>
+			<!--work end-->
+			<!--Skils start-->
+			<div class="skills" id="skills">
+
+				<h2>Skills</h2>
+				<br>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col">
+							<h3>HTML5</h3>
 							<canvas id="doughnut" width="120" height="120"></canvas>
-							<canvas id="skill1" width="120" height="120" class=""></canvas>	
-			
-							<h1>CSS</h1>
+							<canvas id="skill1" width="120" height="120" class=""></canvas>
+						</div>
+						<div class="col">
+							<h3>CSS</h3>
 							<canvas id="doughnut2" width="120" height="120"></canvas>
 							<canvas id="skill2" width="120" height="120" class=""></canvas>
-
-							<h1>JavaScript</h1>
+						</div>
+						<div class="col">
+							<h3>JavaScript</h3>
 							<canvas id="doughnut3" width="120" height="120"></canvas>
 							<canvas id="skill3" width="120" height="120" class=""></canvas>
-						
-							<h1>jQuery</h1>
+						</div>
+						<div class="col">
+							<h3>jQuery</h3>
 							<canvas id="doughnut4" width="120" height="120"></canvas>
 							<canvas id="skill4" width="120" height="120" class=""></canvas>
-
-							<h1>C#</h1>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col">
+							<h3>C#</h3>
 							<canvas id="doughnut5" width="120" height="120"></canvas>
 							<canvas id="skill5" width="120" height="120" class=""></canvas>
-							<h1>SQL</h1>
+						</div>
+						<div class="col">
+							<h3>SQL</h3>
 							<canvas id="doughnut6" width="120" height="120"></canvas>
 							<canvas id="skill6" width="120" height="120" class=""></canvas>
-							<h1>Bootstrap</h1>
+						</div>
+						<div class="col">
+
+							<h3>Bootstrap</h3>
 							<canvas id="doughnut7" width="120" height="120"></canvas>
 							<canvas id="skill7" width="120" height="120" class=""></canvas>
-							<h1>ASP.NET MVC</h1>
+						</div>
+						<div class="col">
+							<h3>ASP.NET MVC</h3>
 							<canvas id="doughnut8" width="120" height="120"></canvas>
 							<canvas id="skill8" width="120" height="120" class=""></canvas>
-							<h1>AngularJS</h1>
+						</div>
+
+						<div class="col">
+							<h3>AngularJS</h3>
 							<canvas id="doughnut9" width="120" height="120"></canvas>
 							<canvas id="skill9" width="120" height="120" class=""></canvas>
 						</div>
 					</div>
+				</div>
+			</div>
+			<!--Skils end-->
+			<br>
+			<!--Projects start-->
+			<div class="projects" id="projects">
+				<h2>Projects</h2>
+				<br>
+				<br>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-5">
+							<div class="card" style="width: 15rem;"id="mdbm">
+								<img class="card-img-top" src="img/icon.png" alt="Card image cap" >
+								<div class="card-body">
+									<p class="card-text"><b>MDBM</b> - <i>School Projcet</i><br>
+										Web application for adding movies to list  
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="card" style="width: 15rem;">
+								<img class="card-img-top" src="img/custom_burger.png" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text"><b>Custom Burger </b> - <i>School Project  </i><br>
+										Web application for making orders and making custom burgers
+										</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<!--Skils end-->
+			<!--contact start-->
+			<div class="contact" id="contact">
+				<h3>Contact</h3>
+				<a href="mailto:josifovski.marjan@hotmail.com.com?Subject=Hello%20again" target="_top" id="email">
+					<img src="img/mail.png" alt="fb_logo" id="mailImg">
+				</a>
+				<span id="mailSpan">josifovski.marjan@hotmail.com</span>
+				<br>
+				<img src="img/phone.png" alt="phone" id="phone">
+				<span>+38970224304</span>
+				<br>
+				<br>
+
+				<a href="https://www.facebook.com/makitrip" target="_blind" id="email">
+					<img src="img/fb.png" alt="fb_logo" class="imgs">
+				</a>
+				<a href="https://www.facebook.com/makitrip" target="_blind" id="email">
+					<img src="img/linkedin.png" alt="fb_logo" class="imgs">
+				</a>
+			</div>
+			<!--contact end-->
 		</div>
-		<!-- /container -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-		<script src="js/skills.js" ></script>
+		<br>
+		<footer>Marjan-Josifovski &copy;
+			<time datetime="YYYY" id="date"></time>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		 crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+		 crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+		 crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		 crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+		 crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+		 crossorigin="anonymous"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/skills.js"></script>
+		<script src="js/script.js"></script>
 		<script src="js/TweenLite.min.js"></script>
 		<script src="js/EasePack.min.js"></script>
 		<script src="js/demo-1.js"></script>
