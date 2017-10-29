@@ -5,30 +5,44 @@ $(document).ready(function(){
 $(".buton")
             .hover(function() {
             
-            $(this).css("color"," #333333")
+            $(this).css("color"," #575d66")
   })
             .mouseout(function() {
                 $(this).css("color","black")
   });
    
-      $(window).scroll(function () { 
-        
-            if ($(window).scrollTop() < 950) {
-                loadSkills1();
-                loadSkills2();
-                loadSkills3();
-                loadSkills4();
-                loadSkills5();
-                loadSkills6();
-                loadSkills7();
-                loadSkills8();
-                loadSkills9();
-               
-            }else{
 
-            }
-            $(window).off('scroll');
-          });
+  var loadSkilsTarget = $("#works").offset().top;
+  var interval = setInterval(function() {
+      if ($(window).scrollTop() >= loadSkilsTarget) {
+        loadSkills1();
+        loadSkills2();
+        loadSkills3();
+        loadSkills4();
+        loadSkills5();
+        loadSkills6();
+        loadSkills7();
+        loadSkills8();
+        loadSkills9();
+          clearInterval(interval);
+      }
+  }, 250)
+
+  var navTarget = $("#navBar").offset().top;
+  var interval1 = setInterval(function() {
+      if ($(window).scrollTop() >= navTarget) {
+        $('#navBar').addClass('navbar-fixed');
+          clearInterval(interval1);
+      }
+  }, 250)
+  var navClearTarget = $("#worksr").offset().top;
+  var interval2 = setInterval(function() {
+      if ($(window).scrollTop() >= navClearTarget) {
+        $('#navBar').removeClass('navbar-fixed');
+          clearInterval(interval2);
+      }
+  },250)
+  
 
           $("#mdbm").on('click', function(){
             var url = 'https://github.com/maki3p/MDBM-frontend';

@@ -7,9 +7,6 @@ for (var i = 0; i < doughnutArray.length; i++) {
   doughnutArray[i].arc(60, 60, 55, 4.72, 15, false); //.arc(x, y , radius, startAngle, endAngle, anticlockwise)
   doughnutArray[i].stroke();
 }
-window.onload = function() {
-
-  }
   /*Load skills one function*/
 function loadSkills1() {
   var ctx = document.getElementById('skill1').getContext('2d');
