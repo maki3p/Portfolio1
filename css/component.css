@@ -36,12 +36,12 @@ body{margin:0;}
 	font-size: 2em;
 	
 } 
-#navBar{
+.navBar{
 	background-color: white;
 	font-size: 1.5em;
 	text-align: center;
 	font-family: 'Anton', sans-serif;
-	
+	position:sticky
 	
 }
 
@@ -111,4 +111,5 @@ footer{
 	z-index: 100;
 	position: fixed;
 	width: 100%;
+	
   }

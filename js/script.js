@@ -34,14 +34,8 @@ $(".buton")
         $('#navBar').addClass('navbar-fixed');
           clearInterval(interval1);
       }
-  }, 250)
-  var navClearTarget = $("#worksr").offset().top;
-  var interval2 = setInterval(function() {
-      if ($(window).scrollTop() >= navClearTarget) {
-        $('#navBar').removeClass('navbar-fixed');
-          clearInterval(interval2);
-      }
-  },250)
+  }, 0)
+
   
 
           $("#mdbm").on('click', function(){
