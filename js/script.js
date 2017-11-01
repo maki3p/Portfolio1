@@ -28,15 +28,6 @@ $(document).ready(function () {
         }
     }, 250)
 
-    //   var navTarget = $("#navBar").offset().top;
-    //   var interval1 = setInterval(function() {
-    //       if ($(window).scrollTop() >= navTarget) {
-    //         $('#navBar').addClass('navbar-fixed');
-    //           clearInterval(interval1);
-    //       }else{
-    //         $('#navBar').removeClass('navbar-fixed');
-    //       }
-    //   }, 0)
     
     var navpos = $(window).height()
     console.log(navpos.top);
