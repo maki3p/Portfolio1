@@ -1,5 +1,7 @@
 /* /* Header */
-body{margin:0;}
+body{
+	margin:0;
+};
  .large-header {
 	position: relative;
 	width: 100%;
@@ -7,8 +9,7 @@ body{margin:0;}
 	
 	background-position: center center;
 	z-index: 1;
-} 
-
+};
  #myName {
 	position: absolute;
 	margin: 0;
@@ -21,7 +22,7 @@ body{margin:0;}
 	transform: translate3d(-50%,-50%,0);
 	font-family: 'Anton', sans-serif;
 	font-size: 5em;
-}
+};
  #jobTitle{
 	position: absolute;
 	margin: 0;
@@ -34,17 +35,14 @@ body{margin:0;}
 	transform: translate3d(-50%,-50%,0);
 	font-family: 'Anton', sans-serif;
 	font-size: 2em;
-	
-} 
+}; 
 .navBar{
 	background-color: white;
 	font-size: 1.5em;
 	text-align: center;
 	font-family: 'Anton', sans-serif;
-	position:sticky
-	
-}
-
+	position:sticky;	
+};
 .buton{
 	font-size: 1.4em;
 	border: 0px;
@@ -52,7 +50,7 @@ body{margin:0;}
 	color:black;
 	font-family: 'Anton', sans-serif;
 	
-}
+};
 #aboutMe{
 	padding-left: 5%;
     border-radius: 10px;
@@ -60,56 +58,51 @@ body{margin:0;}
     height: auto;
 	padding: 20px;
 	display: block;    
-}
+};
 #mj{
-	
-	left: 10%;
 	width: 250px;
-	border-radius:10px;
-	
-}
-#aboutme,.projects,.contact{
-	
-	
+	border-radius:10px;	
+};
+#aboutme,.projects,.contact{	
 	text-align: center;
 	color: black;
 	
-}
+};
 p,a,span{
 	position: relative;	
 	color: black;
 	text-align: center;
 	font-size:1.2em;
 	text-decoration: none;
-}
+};
 #works{
 	padding-top: 5%;
 	text-align: center;	
 	font-family: sans-serif;
-}
+};
 .skills{
 	padding-top: 5%;
 	text-align: center;	
 	font-family:  sans-serif;
-}
+};
 li{
 	font-size:1.2em;
-}
+};
 .imgs{
 	width: 50px;
-}
+};
 #mailImg,#phone{
 	width:50px;
 	text-align: start
-}
+};
 footer{
 	text-align: center
 
-}
+};
 .navbar-fixed {
 	top: 0;
 	z-index: 100;
 	position: fixed;
 	width: 100%;
-  }
+};
  
