@@ -48,7 +48,7 @@ body{margin:0;}
 .buton{
 	font-size: 1.4em;
 	border: 0px;
-	background-color: white;
+	background-color:white;
 	color:black;
 	font-family: 'Anton', sans-serif;
 	
@@ -112,3 +112,4 @@ footer{
 	position: fixed;
 	width: 100%;
   }
+ 
