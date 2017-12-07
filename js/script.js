@@ -46,6 +46,6 @@ $(document).ready(function () {
         window.open(url, '_blank')
 
     });
-
+    
 
 })
