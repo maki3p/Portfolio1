@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var year = new Date().getFullYear()
     $("#date").append(year)
-    console.log("Marjan Josifovski", year)
+    
     $(".buton")
         .hover(function () {
 
@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     
     var navpos = $(window).height()
-    console.log(navpos.top);
+    
     $(window).bind('scroll', function () {
         if ($(window).scrollTop() > navpos) {
             $('#navBar').addClass('navbar-fixed');
@@ -48,4 +48,5 @@ $(document).ready(function () {
     });
     
 
+    
 })

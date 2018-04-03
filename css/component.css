@@ -92,7 +92,7 @@ li{
 	width: 50px;
 }
 #mailImg,#phone{
-	width:50px;
+	width:30px;
 	text-align: start
 }
 footer{
@@ -105,4 +105,8 @@ footer{
 	position: fixed;
 	width: 100%;
   }
+.pointer{
+	cursor: pointer;
+}
+
   
